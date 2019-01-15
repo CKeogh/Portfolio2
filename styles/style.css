@@ -1,3 +1,15 @@
 * {
     padding: 0;
 }
+
+body {
+    font-family: 'Cabin', Arial, sans-serif;
+    margin: 0;
+}
+
+footer {
+    font-family: 'Thasadith', san-serif;
+    background-color: red;
+    padding: 20px;
+    margin: 0;
+}
