@@ -1,5 +1,6 @@
 * {
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -15,28 +16,62 @@ body {
 .navbar {
     position: fixed;
     margin: 0;
-    width: 90px
+    width: 90px;
+    padding: 0 0 100% 0;
+    background-image: linear-gradient(hsl(0, 0%, 10%), white);
+}
+
+.navbar li {
+    padding: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+a:hover {
+    color: hsl(220, 57%, 80%);
+    font-size: 21px;
 }
 
 h1 {
     font-size: 70px;
-    margin: 0
+    margin: 0;
 }
 
 h2 {
     font-size: 30px;
+    margin: 20px 0 0 0;
 }
 
 .banner {
     text-align: center;
-    background-color: grey;
+    color: hsl(12, 50%, 50%);
+    padding: 200px;
+    background-image: url(../images/gaudi.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.welcome {
+    text-align: center;
+    font-size: 18px;
+    padding: 40px 200px;
 }
 
 footer {
     font-family: 'Thasadith', san-serif;
-    background-color: red;
+    color: white;
+    text-align: right;
+    background-color: hsl(152, 40%, 12%);
     padding: 20px;
     margin: 0;
+}
+
+.copyright {
+    text-align: left;
 }
 
 img {
