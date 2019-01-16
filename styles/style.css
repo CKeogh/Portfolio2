@@ -5,7 +5,31 @@
 body {
     font-family: 'Cabin', Arial, sans-serif;
     margin: 0;
-    background-color: hsl(0, 0%, 92%);
+    background-color: white;
+}
+
+.main {
+    margin: 0 0 0 90px;
+}
+
+.navbar {
+    position: fixed;
+    margin: 0;
+    width: 90px
+}
+
+h1 {
+    font-size: 70px;
+    margin: 0
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.banner {
+    text-align: center;
+    background-color: grey;
 }
 
 footer {
@@ -13,4 +37,16 @@ footer {
     background-color: red;
     padding: 20px;
     margin: 0;
+}
+
+img {
+    width: 80%;
+}
+
+.bullets {
+    display: grid;
+    margin: 5px;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    justify-items: center;
+    align-items: center;
 }
