@@ -18,7 +18,7 @@ body {
     margin: 0;
     width: 90px;
     padding: 0 0 100% 0;
-    background-image: linear-gradient(hsl(0, 0%, 10%), white);
+    background-image: linear-gradient(hsl(0, 0%, 20%), white);
 }
 
 .navbar li {
@@ -53,7 +53,7 @@ h2 {
     background-image: url(../images/gaudi.jpg);
     background-position: center;
     background-size: cover;
-    min-width: 500px;
+    min-width: 400px;
 }
 
 
