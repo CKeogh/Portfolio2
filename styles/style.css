@@ -14,10 +14,12 @@ body {
 }
 
 .navbar {
+    color: hsl(12, 50%, 70%);
+    font-size: 20px;
     position: fixed;
     margin: 0;
     width: 90px;
-    padding: 0 0 100% 0;
+    padding: 0 0 15% 0;
     background-image: linear-gradient(hsl(0, 0%, 20%), white);
 }
 
@@ -32,7 +34,7 @@ a {
 }
 
 a:hover {
-    color: hsl(220, 57%, 80%);
+    color: hsl(12, 50%, 70%);
     font-size: 21px;
 }
 
