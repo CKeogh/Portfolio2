@@ -21,6 +21,7 @@ body {
     width: 90px;
     padding: 0 0 15% 0;
     background-image: linear-gradient(hsl(0, 0%, 20%), white);
+    z-index: 4;
 }
 
 .navbar li {
@@ -96,6 +97,8 @@ footer {
     background-color: hsl(152, 40%, 12%);
     padding: 20px;
     margin: 0;
+    position: relative;
+    z-index: 5;
 }
 
 .copyright {
