@@ -74,6 +74,7 @@ a:hover {
 
 .banner {
     color: hsl(12, 50%, 50%);
+    text-shadow: 0.5px 0.5px 0 #000;
     height: 500px;
     background-image: url(../images/gaudi.jpg);
     background-position: center;
@@ -107,6 +108,13 @@ footer {
 
 img {
     width: 80%;
+}
+
+.contactBullets {
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+    color: hsl(0, 0%, 30%)
 }
 
 @media screen and (min-width: 600px) {
