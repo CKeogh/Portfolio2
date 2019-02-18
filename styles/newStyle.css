@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: hsla(225, 73%, 57%, 0.8);
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    z-index: 10;
+}
+
+.navbar li {
+    display: inline;
+    padding: 7%;
+    font-size: 25px;
+}

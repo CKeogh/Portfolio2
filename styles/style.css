@@ -1,6 +1,6 @@
 * {
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 body {
@@ -10,22 +10,25 @@ body {
 }
 
 .main {
-    margin: 0 0 0 90px;
+    margin: 0;
 }
 
+
+
 .navbar {
-    color: hsl(12, 50%, 60%);
+    color:white;
     font-size: 20px;
     position: fixed;
     margin: 0;
-    width: 90px;
-    padding: 0 0 15% 0;
-    background-image: linear-gradient(hsl(0, 0%, 20%), white);
+    width: 100%;
+    padding: 20px;
+    background-color: hsl(212, 40%, 25%, 0.9);
     z-index: 4;
 }
 
 .navbar li {
-    padding: 15px 0;
+    padding: 20px 7%;
+    display: inline;
 }
 
 .fa-home {
@@ -34,13 +37,12 @@ body {
 
 a {
     text-decoration: none;
-    color: whitesmoke;
+    color: rgba(245, 245, 245, 0.918);
     font-size: 20px;
 }
 
 a:hover {
-    color: hsl(12, 50%, 60%);
-    font-size: 21px;
+    color:white;
 }
 
 @media screen and (min-width: 600px) {
