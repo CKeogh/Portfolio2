@@ -22,7 +22,7 @@ body {
     margin: 0;
     width: 100%;
     padding: 20px;
-    background-color: hsl(212, 40%, 25%, 0.9);
+    background-color: rgba(73, 73, 73, 0.9);
     z-index: 4;
 }
 
@@ -37,7 +37,7 @@ body {
 
 a {
     text-decoration: none;
-    color: rgba(245, 245, 245, 0.918);
+    color: rgba(245, 245, 245, 0.733);
     font-size: 20px;
 }
 
@@ -112,6 +112,14 @@ img {
     width: 80%;
 }
 
+.header {
+    animation-delay: 0.5s;
+}
+
+.subHeader {
+    animation-delay: 0.7s;
+}
+
 .contactBullets {
     text-align: center;
     font-size: 25px;
@@ -127,6 +135,7 @@ img {
         justify-items: center;
         align-items: center;
     }
+
 }
  @media screen and (max-width: 599px) {
      .bullets {
