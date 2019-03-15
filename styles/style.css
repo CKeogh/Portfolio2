@@ -21,14 +21,16 @@ body {
     position: fixed;
     margin: 0;
     width: 100%;
-    padding: 20px;
+    padding: 2px;
     background-color: rgba(73, 73, 73, 0.9);
     z-index: 4;
 }
 
 .navbar li {
-    padding: 20px 7%;
-    display: inline;
+    padding: 0.5rem 2.5%;
+    float: right;
+    list-style-type: none;
+    
 }
 
 .fa-home {
@@ -91,6 +93,7 @@ a:hover {
     padding: 40px 0;
     margin: 20px 20%;
     border-bottom: 2px solid black;
+    animation-delay: 0.8s;
 }
 
 footer {
@@ -118,6 +121,12 @@ img {
 
 .subHeader {
     animation-delay: 0.7s;
+}
+
+
+
+.bullets {
+    animation-delay: 0.9s;
 }
 
 .contactBullets {
