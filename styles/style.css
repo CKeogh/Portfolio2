@@ -6,7 +6,7 @@
 body {
     font-family: 'Cabin', Arial, sans-serif;
     margin: 0;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 .main {
@@ -22,7 +22,7 @@ body {
     margin: 0;
     width: 100%;
     padding: 2px;
-    background-color: rgba(73, 73, 73, 0.9);
+    /* background-color: rgba(73, 73, 73, 0.9); */
     z-index: 4;
 }
 
@@ -77,10 +77,10 @@ a:hover {
 }
 
 .banner {
-    color: hsl(12, 50%, 50%);
+    color: hsl(0, 0%, 63%);
     text-shadow: 0.5px 0.5px 0 #000;
-    height: 500px;
-    background-image: url(../images/gaudi.jpg);
+    height: 600px;
+    background-image: url(../images/night-sky.png);
     background-position: center;
     background-size: cover;
     min-width: 400px;
@@ -100,7 +100,7 @@ footer {
     font-family: 'Thasadith', san-serif;
     color: white;
     text-align: right;
-    background-color: hsl(152, 40%, 12%);
+    background-color: hsl(215, 69%, 6%);
     padding: 20px;
     margin: 0;
     position: relative;
