@@ -13,8 +13,6 @@ body {
     margin: 0;
 }
 
-
-
 .navbar {
     color:white;
     font-size: 20px;
@@ -77,7 +75,7 @@ a:hover {
 }
 
 .banner {
-    color: hsl(0, 0%, 63%);
+    color: hsl(0, 0%, 77%);
     text-shadow: 0.5px 0.5px 0 #000;
     height: 600px;
     background-image: url(../images/night-sky.png);
@@ -123,6 +121,9 @@ img {
     animation-delay: 0.7s;
 }
 
+.scrolledStyle {
+    background-color: black;
+}
 
 
 .bullets {
