@@ -2,12 +2,11 @@
 const navBar = document.querySelector('.navbar');
 
 const handleScroll = (event) => {
-    window.setTimeout(() => {
-        if (![...navBar.classList].includes('scrolledStyle')) {
-            navBar.classList.add('scrolledStyle')
-            navBar.classList.add('fade')
-        }
-    }, 2000)
+    if (window.scrollY > 530 && ![...navBar.classList].includes('scrolledStyle')) {
+        navBar.classList.add('scrolledStyle')
+    } else if (window.scrollY < 530 && [...navBar.classList].includes('scrolledStyle')) {
+        navBar.classList.remove('scrolledStyle');
+    }
 }
 
 window.addEventListener('scroll', handleScroll)
