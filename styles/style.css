@@ -129,6 +129,18 @@ img {
 .bullets {
     animation-delay: 0.9s;
 }
+.bullets {
+    display: grid;
+    margin: 5px;
+    grid-template: 1fr 1fr 1fr  / 1fr 1fr;
+    grid-template-areas: 
+    'codelines concise'
+    'responsive crane'
+    'laptop clean';
+    justify-items: center;
+    align-items: center;
+    text-align: 'center';
+}
 
 .contactBullets {
     text-align: center;
@@ -137,46 +149,60 @@ img {
     color: hsl(0, 0%, 30%)
 }
 
-@media screen and (min-width: 600px) {
+/* @media screen and (min-width: 600px) {
     .bullets {
         display: grid;
         margin: 5px;
-        grid-template: 1fr 1fr / 1fr 1fr;
+        grid-template: 1fr 1fr 1fr  / 1fr 1fr;
+        grid-template-areas: 
+        'codelines concise'
+        'responsive crane'
+        'laptop clean';
+        justify-items: center;
+        align-items: center;
+    }  
+} */
+.codelines {
+    grid-area: codelines;
+    text-align: 'center';
+}
+
+.concise {
+    grid-area: concise;
+    text-align: 'center';
+    margin: 15px;
+}
+
+.crane {
+    grid-area: crane;
+    text-align: 'center';
+}
+
+.responsive {
+    grid-area: responsive;
+    text-align: 'center';
+    margin: 15px;
+}
+
+.laptop {
+    grid-area: laptop;
+    text-align: 'center';
+}
+
+ .clean {
+     grid-area: clean;
+     text-align: 'center';
+     margin: 15px;
+ }
+
+/* @media screen and (max-width: 500px) {
+    .bullets {
+        display: grid;
+        margin: 5px;
+        grid-template: 1fr 1fr 1fr 1fr 1fr 1fr / 1fr;
+        grid-template-areas: "codelines" "concise" "crane" "responsive" "laptop" "clean";
         justify-items: center;
         align-items: center;
     }
-
-}
- @media screen and (max-width: 599px) {
-     .bullets {
-         display: grid;
-         margin: 5px;
-         grid-template-areas: "codelines" "concise" "crane" "responsive" "laptop" "clean";
-         justify-items: center;
-         align-items: center;
-     }
-
-     .codelines {
-         grid-area: codelines;
-     }
-
-     .concise {
-         grid-area: concise;
-     }
-
-     .crane {
-         grid-area: crane;
-     }
-
-     .responsive {
-         grid-area: responsive;
-     }
-
-     .laptop {
-         grid-area: laptop;
-     }
-
-     .clean {
-         grid-area: clean;
-     }
- }
+    
+ } */
