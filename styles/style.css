@@ -122,7 +122,7 @@ img {
 }
 
 .scrolledStyle {
-    background-color: black;
+    background-color: hsl(215, 69%, 6%);
 }
 
 
@@ -164,34 +164,37 @@ img {
 } */
 .codelines {
     grid-area: codelines;
-    text-align: 'center';
 }
 
 .concise {
     grid-area: concise;
-    text-align: 'center';
+    text-align: center;
     margin: 15px;
 }
 
 .crane {
     grid-area: crane;
-    text-align: 'center';
+    transition: 0.5s filter;
+}
+
+.crane:hover {
+    webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+    filter: blur(4px);
 }
 
 .responsive {
     grid-area: responsive;
-    text-align: 'center';
+    text-align: center;
     margin: 15px;
 }
 
 .laptop {
     grid-area: laptop;
-    text-align: 'center';
 }
 
  .clean {
      grid-area: clean;
-     text-align: 'center';
+     text-align: center;
      margin: 15px;
  }
 
@@ -206,3 +209,94 @@ img {
     }
     
  } */
+
+ a {
+     padding: 0;
+     margin: 0;
+ }
+
+ .projectsBody {
+     display: flex;
+     margin: 50px;
+     flex-wrap: wrap;
+     justify-content: center;
+ }
+
+ .project {
+     background-color: grey;
+     width: 500px;
+     height: 300px;
+     margin: 10px;
+     position: relative;
+
+ }
+
+ .project:hover #ncNewsImg {
+    filter: blur(4px);
+ }
+
+ .projText {
+     opacity: 0;
+     transition: 0.5s opacity ease;
+     text-align: center;
+     padding: 5px;
+     position: absolute;
+     justify-self: center;
+     z-index: 2
+ }
+
+.project:hover .projText {
+     opacity: 1;
+ }
+
+ #ncNewsImg {
+     position: absolute;
+     z-index: 1;
+     height: 100%;
+     width: 100%;
+     transition: 0.5s filter;
+     background-image: url('../images/ncnewssnapshot.png');
+     background-size: 120%;
+ }
+
+ #lomo {
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    transition: 0.5s filter;
+    background-image: url('../images/snails.jpg');
+    background-size: 120%;
+}
+
+.project:hover #lomo {
+    filter: blur(4px);
+ }
+
+ #gomoku {
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    transition: 0.5s filter;
+    background-image: url('../images/gaudi.jpg');
+    background-size: 120%;
+}
+
+.project:hover #gomoku {
+    filter: blur(4px);
+ }
+ 
+ #speakingOut {
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    transition: 0.5s filter;
+    background-image: url('../images/ball.jpg');
+    background-size: 120%;
+}
+
+.project:hover #speakingOut {
+    filter: blur(4px);
+ }
