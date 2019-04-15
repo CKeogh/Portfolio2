@@ -27,8 +27,7 @@ body {
 .navbar li {
     padding: 0.5rem 2.5%;
     float: right;
-    list-style-type: none;
-    
+    list-style-type: none; 
 }
 
 .fa-home {
@@ -39,6 +38,7 @@ a {
     text-decoration: none;
     color: rgba(245, 245, 245, 0.733);
     font-size: 20px;
+    transition: 0.5s color ease;
 }
 
 a:hover {
@@ -122,6 +122,7 @@ footer {
 .copyright {
     grid-area: copyright;
     text-align: left;
+    font-size: 15px;
 }
 
 .icons {
@@ -131,14 +132,19 @@ footer {
 }
 
 .githubLink {
-    color: rgb(49, 49, 49);
+    color: hsl(0, 0%, 30%);
     font-size: 40px;
     transition: 0.5s color ease;
     margin: 20px;
 }
 
+h6 {
+    font-size: 15px;
+    color: hsl(0, 0%, 40%);
+}
+
 .twitterLink {
-    color: rgb(49, 49, 49);
+    color: hsl(0, 0%, 30%);
     font-size: 40px;
     transition: 0.5s color ease;
     margin: 20px;
@@ -300,8 +306,8 @@ img {
     height: 100%;
     width: 100%;
     transition: 0.5s filter;
-    background-image: url('../images/snails.jpg');
-    background-size: 120%;
+    background-image: url('../images/lomo.jpg');
+    background-size: 100%;
 }
 
 .project:hover #lomo {
