@@ -172,7 +172,7 @@ img {
 }
 .bullets {
     display: grid;
-    margin: 5px;
+    margin: 50px;
     grid-template: 1fr 1fr 1fr  / 1fr 1fr;
     grid-template-areas: 
     'codelines concise'
@@ -320,7 +320,7 @@ img {
     height: 100%;
     width: 100%;
     transition: 0.5s filter;
-    background-image: url('../images/gaudi.jpg');
+    background-image: url('../images/GomokuPatch.png');
     background-size: 120%;
 }
 
@@ -334,8 +334,8 @@ img {
     height: 100%;
     width: 100%;
     transition: 0.5s filter;
-    background-image: url('../images/ball.jpg');
-    background-size: 120%;
+    background-image: url('../images/SpeakingOut.png');
+    background-size: 100%;
 }
 
 .project:hover #speakingOut {
