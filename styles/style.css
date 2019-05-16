@@ -141,7 +141,7 @@ footer {
     font-family: 'Thasadith', san-serif;
     color: white;
     text-align: right;
-    background-color: hsl(215, 69%, 6%);
+    background-color: #3dabc3;
     margin: 0;
     padding: 30px;
     position: relative;
@@ -166,7 +166,7 @@ footer {
 }
 
 .githubLink {
-    color: hsl(0, 0%, 30%);
+    color: hsl(0, 0%, 58%);
     font-size: 40px;
     transition: 0.5s color ease;
     margin: 20px;
@@ -174,11 +174,11 @@ footer {
 
 h6 {
     font-size: 15px;
-    color: hsl(0, 0%, 40%);
+    color: hsl(0, 0%, 58%);
 }
 
 .twitterLink {
-    color: hsl(0, 0%, 30%);
+    color: hsl(0, 0%, 58%);
     font-size: 40px;
     transition: 0.5s color ease;
     margin: 20px;
@@ -197,7 +197,7 @@ img {
 }
 
 .scrolledStyle {
-    background-color: hsl(215, 69%, 6%);
+    background-color: #4A6670;
 }
 
 
