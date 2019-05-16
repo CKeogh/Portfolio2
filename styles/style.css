@@ -59,21 +59,6 @@ a:hover {
     color:white;
 }
 
-@media screen and (min-width: 600px) {
-    h1 {
-        text-align: left;
-        font-size: 70px;
-        padding: 200px 50px 50px 50px;
-        margin: 0;
-    }
-    
-    h2 {
-        text-align: left;
-        font-size: 30px;
-        padding: 0 0 0 50px;
-    }
-}
-
 @media screen and (max-width: 599px) {
     h1 {
         text-align: center;
@@ -88,14 +73,29 @@ a:hover {
     }
 }
 
+@media screen and (min-width: 600px) {
+    h1 {
+        text-align: left;
+        font-size: 70px;
+        padding: 200px 50px 50px 30px;
+        margin: 0;
+    }
+    
+    h2 {
+        text-align: left;
+        font-size: 30px;
+        padding: 0 0 0 50px;
+    }
+}
+
 .banner {
-    color: hsl(0, 0%, 77%);
+    color: hsl(0, 0%, 100%);
     text-shadow: 0.5px 0.5px 0 #000;
-    height: 600px;
-    background-image: url(../images/night-sky.png);
+    height: 700px;
+    /* background-image: url(../images/night-sky.png); */
     background-position: center;
     background-size: cover;
-    min-width: 400px;
+    /* min-width: 400px; */
     display: grid;
     grid-template: 1fr 1fr / 1fr 500px;
     grid-template-areas: 
@@ -249,11 +249,6 @@ img {
 
 .crane {
     grid-area: crane;
-    transition: 0.5s filter;
-}
-
-.crane:hover {
-    filter: blur(4px);
 }
 
 .responsive {
@@ -329,7 +324,7 @@ img {
      z-index: 1;
      height: 100%;
      width: 100%;
-     transition: 0.5s filter;
+     transition: 1s filter;
      background-image: url('../images/ncnewssnapshot.png');
      background-size: 120%;
  }
